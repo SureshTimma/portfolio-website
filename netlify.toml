@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[build.settings]
+  base = "/"
+  directory = ".next"
+  functions = "functions"
+  dist = ".next"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  publish = "/"
+  env = { NODE_VERSION = "18" }
