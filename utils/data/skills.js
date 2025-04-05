@@ -5,7 +5,7 @@ export const skillsData = [
   'Python',
   'Tailwind',
   'Bootstrap',
-  'SQ Lite',
+  'SQLite',
   'C',
   'C++',
   'Firebase',
