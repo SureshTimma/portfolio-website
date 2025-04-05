@@ -1,5 +1,6 @@
 import { personalData } from "@/utils/data/personal-data";
 import AboutSection from "./components/homepage/about";
+import Achievements from "./components/homepage/achievements";
 import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
@@ -32,6 +33,7 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <Achievements />
       <Education />
       <Blog blogs={blogs} />
       <ContactSection />
