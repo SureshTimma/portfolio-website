@@ -9,7 +9,7 @@ export const educations = [
     id: 2,
     title: "Bachelor of Technology (CSE)",
     duration: "2024 - Present",
-    institution: "Chaitanya Deemed to be University, Himayatnagar, Telangana",
+    institution: "Chaitanya Deemed to be University (CDU), Himayatnagar, Telangana",
   },
   {
     id: 3,
