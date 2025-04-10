@@ -1,10 +1,10 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Abigna Academy App',
+        description: "I built a real-time learning app for UPSC students using ChatGPT without prior coding knowledge. The app allows users to purchase courses, attend online classes, and take quizzes. My brother teaches in the app, and I developed the entire UI and backend logic using Java, Kotlin, and XML with AI assistance. Firebase handles real-time data, authentication, and storage. The app is published on the Play Store and is currently used by real students.",
+        tools: ['Java', 'Kotlin', 'XML', 'Firebase', 'ChatGPT', 'Android Studio', 'Git', 'Play Store'],
+        role: 'Full Stack App Creator (AI-powered)',
         code: '',
         demo: '',
     },
