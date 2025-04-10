@@ -18,31 +18,31 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
-        <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
+        <p className="text-center ml-3 mr-16 text-[#16f2b3] text-base lg:text-xl truncate">
+          {project.name}
+        </p>
+        <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-2 z-10">
           {project.demo && (
             <Link
               href={project.demo}
               target="_blank"
-              className="flex justify-center items-center w-7 h-7 rounded-full border-2 border-[#16f2b3] text-[#16f2b3] transition-all duration-300 hover:bg-[#16f2b3] hover:text-[#0a0d37] hover:scale-110"
+              className="flex justify-center items-center w-6 h-6 md:w-7 md:h-7 rounded-full border-2 border-[#16f2b3] text-[#16f2b3] transition-all duration-300 hover:bg-[#16f2b3] hover:text-[#0a0d37] hover:scale-110"
               title="View Demo"
             >
-              <FaPlay className="text-xs" />
+              <FaPlay className="text-[10px] md:text-xs" />
             </Link>
           )}
           {project.code && (
             <Link
               href={project.code}
               target="_blank"
-              className="flex justify-center items-center w-7 h-7 rounded-full border-2 border-pink-500 text-pink-500 transition-all duration-300 hover:bg-pink-500 hover:text-[#0a0d37] hover:scale-110"
+              className="flex justify-center items-center w-6 h-6 md:w-7 md:h-7 rounded-full border-2 border-pink-500 text-pink-500 transition-all duration-300 hover:bg-pink-500 hover:text-[#0a0d37] hover:scale-110"
               title="View Source Code"
             >
-              <FaCode className="text-xs" />
+              <FaCode className="text-[10px] md:text-xs" />
             </Link>
           )}
         </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
-          {project.name}
-        </p>
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
