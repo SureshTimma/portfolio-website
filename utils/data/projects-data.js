@@ -5,8 +5,8 @@ export const projectsData = [
         description: "I built a real-time learning app for UPSC students using ChatGPT without prior coding knowledge. The app allows users to purchase courses, attend online classes, and take quizzes. My brother teaches in the app, and I developed the entire UI and backend logic using Java, Kotlin, and XML with AI assistance. Firebase handles real-time data, authentication, and storage. The app is published on the Play Store and is currently used by real students.",
         tools: ['Java', 'Kotlin', 'XML', 'Firebase', 'ChatGPT', 'Android Studio', 'Git', 'Play Store'],
         role: 'Full Stack App Creator (AI-powered)',
-        code: '',
-        demo: '',
+        code: 'https://github.com/SureshTimma/Abigna-Academy-App',
+        demo: 'https://talenthive-project.netlify.app/',
     },
     {
         id: 2,
