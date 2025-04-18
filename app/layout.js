@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="Suresh Timma, Timma Suresh, NIAT, NxtWave, Portfolio, Full Stack Developer, Software Developer, Projects, Education, Technology" />
         <meta property="og:title" content="Suresh Timma - Portfolio | NIAT | NxtWave | Timma Suresh" />
         <meta property="og:description" content="Portfolio of Suresh Timma (Timma Suresh), full stack developer, NIAT founder, NxtWave alumnus. Explore projects, skills, and experience in software development, education, and technology." />
