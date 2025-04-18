@@ -1,0 +1,3 @@
+.nextjs-static-indicator, .nextjs-toast, .nextjs-static-indicator-toast, .nextjs-static-indicator-toast-icon {
+  display: none !important;
+}
