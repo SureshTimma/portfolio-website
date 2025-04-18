@@ -63,6 +63,27 @@ git --version
 
 # Getting Started :dart:
 
+### How to Show/Hide Certificates and Blog Sections
+
+To hide or show the Certificates and Blog sections on your homepage:
+
+1. Open `app/page.js`.
+2. To **show** Certificates and Blog:
+   - Uncomment the following lines:
+     ```js
+     import Certificates from "./components/homepage/certificates";
+     ...
+     <Certificates />
+     ...
+     <Blog blogs={blogs} />
+     ```
+3. To **hide** Certificates and Blog:
+   - Comment out the same lines as above.
+
+This allows you to easily toggle these sections as needed.
+
+---
+
 ### Fork and Clone the repo
 
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands

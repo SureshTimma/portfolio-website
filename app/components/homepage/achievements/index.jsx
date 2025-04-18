@@ -41,7 +41,7 @@ function Achievements() {
         </div>
       </div>
       
-      <div className="w-full my-12 overflow-hidden">
+      <div className="w-full my-12 overflow-visible">
         <style jsx global>{`
           /* Hide scrollbars for all elements */
           * {
@@ -65,14 +65,14 @@ function Achievements() {
           {achievementsData.map((achievement) => (
             <motion.div
               key={achievement.id}
-              className="group relative h-[220px] w-[300px] flex-shrink-0 overflow-hidden rounded-xl border border-[#1f223c] bg-[#11152c] shadow-md transition-all duration-500 hover:border-violet-500 mx-3 sm:mx-5"
+              className="group relative h-[270px] w-[360px] min-h-[270px] min-w-[360px] flex-shrink-0 overflow-hidden rounded-xl border border-[#1f223c] bg-[#11152c] shadow-md transition-all duration-500 hover:border-violet-500 mx-3 sm:mx-5"
               initial="hidden"
               whileInView="visible"
               variants={itemVariants}
             >
               {/* Achievement image */}
               <div className="absolute inset-0 z-0 transition-all duration-500 group-hover:scale-110 group-hover:blur-sm">
-                <div className="relative w-full h-full" style={{ aspectRatio: '4/3' }}>
+                <div className="relative w-full h-full min-w-[360px] min-h-[270px]" style={{ aspectRatio: '4/3' }}>
                 <Image
                   src={achievement.image}
                   alt={achievement.title}
