@@ -113,21 +113,19 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CSS</span>
+                <span className="text-amber-300">TypeScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Javascript</span>
+                <span className="text-amber-300">MERN Stack</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">SQLite</span>
+                <span className="text-amber-300">Next.JS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">C</span>
+                <span className="text-amber-300">SQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">C++</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Tailwind</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Bootstrap</span>
+                <span className="text-amber-300">n8n</span>
                 <span className="text-gray-400">{"']"}</span>
               </div>
               <div>

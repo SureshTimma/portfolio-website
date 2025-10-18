@@ -18,6 +18,7 @@ import dart from '../app/assets/svg/skills/dart.svg';
 import deno from '../app/assets/svg/skills/deno.svg';
 import django from '../app/assets/svg/skills/django.svg';
 import docker from '../app/assets/svg/skills/docker.svg';
+import express from '../app/assets/svg/skills/Express.svg';
 import fastify from '../app/assets/svg/skills/fastify.svg';
 import figma from '../app/assets/svg/skills/figma.svg';
 import firebase from '../app/assets/svg/skills/firebase.svg';
@@ -43,8 +44,10 @@ import memsql from '../app/assets/svg/skills/memsql.svg';
 import microsoftoffice from '../app/assets/svg/skills/microsoftoffice.svg';
 import mongoDB from '../app/assets/svg/skills/mongoDB.svg';
 import mysql from '../app/assets/svg/skills/mysql.svg';
+import n8n from '../app/assets/svg/skills/n8n.svg';
 import nextJS from '../app/assets/svg/skills/nextJS.svg';
 import nginx from '../app/assets/svg/skills/nginx.svg';
+import nodeJS from '../app/assets/svg/skills/nodejs.svg';
 import numpy from '../app/assets/svg/skills/numpy.svg';
 import nuxtJS from '../app/assets/svg/skills/nuxtJS.svg';
 import opencv from '../app/assets/svg/skills/opencv.svg';
@@ -174,6 +177,10 @@ export const skillsImage = (skill) => {
       return deno;
     case 'django':
       return django;
+    case 'express':
+      return express;
+    case 'express js':
+      return express;
     case 'firebase':
       return firebase;
     case 'gimp':
@@ -186,8 +193,14 @@ export const skillsImage = (skill) => {
       return lightroom;
     case 'materialui':
       return materialui;
+    case 'n8n':
+      return n8n;
     case 'nginx':
       return nginx;
+    case 'node js':
+      return nodeJS;
+    case 'nodejs':
+      return nodeJS;
     case 'numpy':
       return numpy;
     case 'opencv':
