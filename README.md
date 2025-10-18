@@ -180,7 +180,7 @@ export const personalData = {
   stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "said7388",
-  resume: "...",
+  resume: "https://drive.google.com/file/d/1mfjaVEZlbC9tQ8mBmW8r0kF8xGG79UMq/view?usp=drive_link",
 };
 ```
 
